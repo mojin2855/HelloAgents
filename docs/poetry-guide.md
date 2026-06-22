@@ -30,6 +30,16 @@ poetry --version
 # 输出示例: Poetry (version 2.3.2)
 ```
 
+### Poetry 2.x 注意
+
+Poetry 2.0+ 不再内置 `shell` 命令，需单独安装插件：
+
+```bash
+poetry self add poetry-plugin-shell
+```
+
+安装后即可使用 `poetry shell` 进入虚拟环境。
+
 ---
 
 ## 核心概念
