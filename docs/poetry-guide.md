@@ -144,9 +144,7 @@ poetry install
 # 2. 进入虚拟环境
 poetry shell
 
-# 3. 复制环境变量配置，填入你的 API Key
-cp .env.example .env
-# 编辑 .env 文件，填入真实 Key
+# 3. 编辑 .env 文件，填入真实 Key
 
 # 4. 开始写代码 / 运行代码
 python chapters/chapter4/hello_agent.py
